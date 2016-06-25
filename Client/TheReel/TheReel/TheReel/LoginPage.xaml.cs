@@ -22,7 +22,7 @@ namespace TheReel
 
         private void LoginClick(object obj, EventArgs e)
         {
-            _Model.getUsers();
+            var result = _Model.getUsers();
         }
 
         private void EntryFocus(object obj, FocusEventArgs e)
