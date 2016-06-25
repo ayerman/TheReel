@@ -27,5 +27,3 @@ C:\Users\Aaron Yerman\Documents\Visual Studio 2015\Projects\TheReel\Client\TheRe
 C:\Users\Aaron Yerman\Documents\Visual Studio 2015\Projects\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.pdb
 C:\Users\Aaron Yerman\Documents\Visual Studio 2015\Projects\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.dll.mdb
 C:\Users\Aaron Yerman\Documents\Visual Studio 2015\Projects\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\TheReel.dll.mdb
-C:\Users\Aaron Yerman\Documents\Visual Studio 2015\Projects\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.dll.mdb
-C:\Users\Aaron Yerman\Documents\Visual Studio 2015\Projects\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\TheReel.dll.mdb

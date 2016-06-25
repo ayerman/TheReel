@@ -58,6 +58,5 @@ C:\Users\Aaron Yerman\Documents\Visual Studio 2015\Projects\TheReel\Client\TheRe
 C:\Users\Aaron Yerman\Documents\Visual Studio 2015\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
 C:\Users\Aaron Yerman\Documents\Visual Studio 2015\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\R.cs.flag
 C:\Users\Aaron Yerman\Documents\Visual Studio 2015\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\uploadflags.txt
-C:\Users\Aaron Yerman\Documents\Visual Studio 2015\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\bin\Debug\TheReel.dll.mdb
 C:\Users\Aaron Yerman\Documents\Visual Studio 2015\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\TheReel.Droid.dll.mdb
 C:\Users\Aaron Yerman\Documents\Visual Studio 2015\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\bin\Debug\TheReel.Droid.dll.mdb

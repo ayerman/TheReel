@@ -16,3 +16,7 @@
 *.sbr
 obj/
 [Rr]elease*/
+*.cache
+*Client/TheReel/TheReel/TheReel.Droid/obj/
+*Client/TheReel/TheReel/TheReel.WinPhone/obj/
+*.cs
