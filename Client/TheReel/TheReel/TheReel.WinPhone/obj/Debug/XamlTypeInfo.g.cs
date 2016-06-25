@@ -622,5 +622,3 @@ namespace TheReel.WinPhone.TheReel_WinPhone_XamlTypeInfo
 }
 
 
-
-

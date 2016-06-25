@@ -55,7 +55,7 @@ namespace TheReel
             }
         }
 
-        public async Task<bool> getUsers()
+        public async void getUsers()
         {
             var client = new HttpClient();
 
@@ -68,11 +68,10 @@ namespace TheReel
                 if(user.username.ToLower() == Username.ToLower() && user.password == Password)
                 {
                     Result = "Success";
-                    return true;
+                    return;
                 }
             }
             Result = "Failed";
-            return false;
         }
          
         public event PropertyChangedEventHandler PropertyChanged;
