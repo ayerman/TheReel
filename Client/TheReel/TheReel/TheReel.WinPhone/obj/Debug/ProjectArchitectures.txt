@@ -1,2 +1,2 @@
-C:\Users\Aaron Yerman\documents\visual studio 2015\Projects\TheReel\TheReel\TheReel.WinPhone\TheReel.WinPhone.csproj;neutral
-C:\Users\Aaron Yerman\documents\visual studio 2015\Projects\TheReel\TheReel\TheReel\TheReel.csproj;neutral
+C:\Users\Aaron Yerman\Documents\Visual Studio 2015\Projects\TheReel\Client\TheReel\TheReel\TheReel.WinPhone\TheReel.WinPhone.csproj;neutral
+C:\Users\Aaron Yerman\Documents\Visual Studio 2015\Projects\TheReel\Client\TheReel\TheReel\TheReel\TheReel.csproj;neutral
