@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TheReel.LoginPage">
+    <StackLayout x:Name="LoginLayout" VerticalOptions="CenterAndExpand" Spacing="5" Padding="20,0,20,0">
+      <Label Text="Username" />
+      <Entry Focused="EntryFocus" Unfocused="EntryFocus" Text="{Binding Username}" Placeholder="username" />
+      <Label Text="Password" />
+      <Entry Focused="EntryFocus" Unfocused="EntryFocus" Text="{Binding Password}" IsPassword="true" />
+      <Button Text="Login" Clicked="LoginClick"/>
+      <Button Text="SignUp"/>
+      <Label Text="{Binding Result}"/>
+    </StackLayout>
+</ContentPage>
