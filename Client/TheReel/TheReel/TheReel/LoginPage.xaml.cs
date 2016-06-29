@@ -23,6 +23,15 @@ namespace TheReel
         private void LoginClick(object obj, EventArgs e)
         {
             _Model.getUsers();
+            var newMain = new MasterDetailPage();
+            /*newMain.Detail = new LoginPage(new LoginViewModel(new User()));
+            newMain.Master = new Signup(new SignupViewModel(new User()));
+            Application.Current.MainPage = newMain;*/
+        }
+
+        async void SignUp(object obj, EventArgs e)
+        {
+            await Navigation.PushAsync(new Signup(new SignupViewModel(new User())));
         }
 
         private void EntryFocus(object obj, FocusEventArgs e)

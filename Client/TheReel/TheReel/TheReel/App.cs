@@ -11,8 +11,9 @@ namespace TheReel
     {
         public App()
         {
-            // The root page of your application
-            MainPage = new LoginPage(new LoginViewModel(new User()));
+            var NavPage = new NavigationPage();
+            MainPage = NavPage;
+            NavPage.PushAsync(new LoginPage(new LoginViewModel(new User())));
         }
 
         protected override void OnStart()
