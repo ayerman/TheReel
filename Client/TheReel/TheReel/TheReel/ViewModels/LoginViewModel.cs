@@ -12,7 +12,6 @@ namespace TheReel
     public class LoginViewModel : INotifyPropertyChanged
     {
         private User _User;
-        private string _Result;
 
         public LoginViewModel(User user)
         {
@@ -43,19 +42,7 @@ namespace TheReel
             }
         }
 
-        public string Result
-        {
-            get { return _Result; }
-            set
-            {
-                if (value == _Result)
-                    return;
-                _Result = value;
-                NotifyPropertyChanged("Result");
-            }
-        }
-
-        public async void getUsers()
+        public async Task<bool> IsUserValid()
         {
             var client = new HttpClient();
 
@@ -67,11 +54,12 @@ namespace TheReel
             {
                 if(user.username.ToLower() == Username.ToLower() && user.password == Password)
                 {
-                    Result = "Success";
-                    return;
+                    UserDB SqlDb = new UserDB();
+                    SqlDb.AddUser(_User);
+                    return true;
                 }
             }
-            Result = "Failed";
+            return false;
         }
          
         public event PropertyChangedEventHandler PropertyChanged;

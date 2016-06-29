@@ -9,6 +9,5 @@
       <Entry Focused="EntryFocus" Unfocused="EntryFocus" Text="{Binding Password}" IsPassword="true" />
       <Button Text="Login" Clicked="LoginClick"/>
       <Button Text="SignUp" Clicked="SignUp"/>
-      <Label Text="{Binding Result}"/>
     </StackLayout>
 </ContentPage>

@@ -5,7 +5,7 @@ using Xamarin.Forms;
 using TheReel.Core;
 
 
-namespace TheReel.Models
+namespace TheReel
 {
     public class UserDB
     {
@@ -14,29 +14,29 @@ namespace TheReel.Models
         public UserDB()
         {
             _SQLConnection = DependencyService.Get<ISQLite>().GetConnection();
-            _SQLConnection.CreateTable<UserDB>();
+            _SQLConnection.CreateTable<User>();
         }
 
         //Get all students  
-        public IEnumerable<User> GetStudents()
+        public IEnumerable<User> GetUsers()
         {
             return (from t in _SQLConnection.Table<User>() select t).ToList();
         }
 
         //Get specific student  
-        public User GetStudent(int id)
+        public User GetUser(int id)
         {
             return _SQLConnection.Table<User>().FirstOrDefault(t => t.id == id);
         }
 
         //Delete specific student  
-        public void DeleteStudent(int id)
+        public void DeleteUser(int id)
         {
             _SQLConnection.Delete<User>(id);
         }
 
         //Add new student to DB  
-        public void AddStusent(User student)
+        public void AddUser(User student)
         {
             _SQLConnection.Insert(student);
         }

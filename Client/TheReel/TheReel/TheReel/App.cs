@@ -11,9 +11,18 @@ namespace TheReel
     {
         public App()
         {
-            var NavPage = new NavigationPage();
-            MainPage = NavPage;
-            NavPage.PushAsync(new LoginPage(new LoginViewModel(new User())));
+            UserDB sqlDB = new UserDB();
+            var user = sqlDB.GetUsers().FirstOrDefault();
+            if(user != null)
+            {
+
+            }
+            else
+            {
+                var NavPage = new NavigationPage();
+                MainPage = NavPage;
+                NavPage.PushAsync(new LoginPage(new LoginViewModel(new User())));
+            }
         }
 
         protected override void OnStart()

@@ -13,7 +13,6 @@ namespace TheReel
         public SignupViewModel _Model;
         public Signup(SignupViewModel Model)
         {
-            Title = "The Reel";
             InitializeComponent();
             _Model = Model;
             BindingContext = _Model;
@@ -36,4 +35,5 @@ namespace TheReel
             }
         }
     }
+
 }

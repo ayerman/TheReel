@@ -20,9 +20,9 @@ namespace TheReel
             BindingContext = _Model;
         }
 
-        private void LoginClick(object obj, EventArgs e)
+        async void LoginClick(object obj, EventArgs e)
         {
-            _Model.getUsers();
+            var result = await _Model.IsUserValid();
             var newMain = new MasterDetailPage();
             /*newMain.Detail = new LoginPage(new LoginViewModel(new User()));
             newMain.Master = new Signup(new SignupViewModel(new User()));
