@@ -47,5 +47,3 @@ C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.csprojResolveAssemblyReference.cache
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.dll.mdb
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\TheReel.dll.mdb
-C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.dll.mdb
-C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\TheReel.dll.mdb

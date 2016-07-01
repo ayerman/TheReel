@@ -72,7 +72,7 @@ namespace TheReel
         {
             var client = new HttpClient();
 
-            client.BaseAddress = new Uri("http://localhost:8905/");
+            client.BaseAddress = new Uri("http://thereelweb.azurewebsites.net/");
             var serialized = JsonConvert.SerializeObject(_User);
             StringContent queryString = new StringContent(serialized);
 

@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 
 using Xamarin.Forms;
@@ -12,16 +14,35 @@ namespace TheReel
         public App()
         {
             UserDB sqlDB = new UserDB();
-            var user = sqlDB.GetUsers().FirstOrDefault();
-            if(user != null)
+            var liteUser = sqlDB.GetUsers().FirstOrDefault();
+            bool result = false; ;
+            if(liteUser != null)
             {
+                //DAO this
+                var client = new HttpClient();
 
+                client.BaseAddress = new Uri("http://thereelweb.azurewebsites.net/");
+
+                var response = client.GetStringAsync("api/Users");
+                response.Wait();
+                
+                foreach (var user in JsonConvert.DeserializeObject<List<User>>(response.Result))
+                {
+                    if (user.username.ToLower() == liteUser.username.ToLower() && user.password == liteUser.password)
+                    {
+                        result = true;
+                    }
+                }
             }
-            else
+            if (result == false)
             {
                 var NavPage = new NavigationPage();
                 MainPage = NavPage;
                 NavPage.PushAsync(new LoginPage(new LoginViewModel(new User())));
+            }
+            else
+            {
+                //main page
             }
         }
 

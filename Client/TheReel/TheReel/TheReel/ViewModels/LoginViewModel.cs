@@ -46,7 +46,7 @@ namespace TheReel
         {
             var client = new HttpClient();
 
-            client.BaseAddress = new Uri("http://localhost:8905/");
+            client.BaseAddress = new Uri("http://thereelweb.azurewebsites.net/");
 
             var response = await client.GetStringAsync("api/Users");
 
@@ -54,6 +54,7 @@ namespace TheReel
             {
                 if(user.username.ToLower() == Username.ToLower() && user.password == Password)
                 {
+                    _User.id = user.id;
                     UserDB SqlDb = new UserDB();
                     SqlDb.AddUser(_User);
                     return true;

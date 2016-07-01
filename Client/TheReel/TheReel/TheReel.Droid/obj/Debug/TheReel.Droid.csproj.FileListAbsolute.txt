@@ -96,6 +96,5 @@ C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\bin\Debug\SQLitePCLPlugin_esqlite3.dll
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\bin\Debug\SQLite-net.xml
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\bin\Debug\SQLite-net.dll.mdb
-C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\bin\Debug\TheReel.dll.mdb
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\TheReel.Droid.dll.mdb
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\bin\Debug\TheReel.Droid.dll.mdb
