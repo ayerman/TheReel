@@ -23,10 +23,13 @@ namespace TheReel
         async void LoginClick(object obj, EventArgs e)
         {
             var result = await _Model.IsUserValid();
-            var newMain = new MasterDetailPage();
-            /*newMain.Detail = new LoginPage(new LoginViewModel(new User()));
-            newMain.Master = new Signup(new SignupViewModel(new User()));
-            Application.Current.MainPage = newMain;*/
+            if (result)
+            {
+                var newMain = new MasterDetailPage();
+                newMain.Master = new NavPage(_Model.Username);
+                newMain.Detail = new TopicsPage();
+                Application.Current.MainPage = newMain;
+            }
         }
 
         async void SignUp(object obj, EventArgs e)

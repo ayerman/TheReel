@@ -56,6 +56,11 @@ namespace TheReel
                 {
                     _User.id = user.id;
                     UserDB SqlDb = new UserDB();
+                    var existingUser = SqlDb.GetUser(_User.id);
+                    if(existingUser != null)
+                    {
+                        SqlDb.DeleteUser(_User.id);
+                    }
                     SqlDb.AddUser(_User);
                     return true;
                 }

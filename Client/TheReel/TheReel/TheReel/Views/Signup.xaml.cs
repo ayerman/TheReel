@@ -18,9 +18,13 @@ namespace TheReel
             BindingContext = _Model;
         }
 
-        private void ConfirmClick(object obj, EventArgs e)
+        async void ConfirmClick(object obj, EventArgs e)
         {
-            _Model.createUser();
+            var result = await _Model.createUser();
+            if (result)
+            {
+                Application.Current.MainPage = new NavigationPage(new LoginPage(new LoginViewModel(_Model.User)));
+            }
         }
 
         private void EntryFocus(object obj, FocusEventArgs e)

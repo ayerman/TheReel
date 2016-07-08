@@ -14,8 +14,9 @@ namespace TheReel
         public App()
         {
             UserDB sqlDB = new UserDB();
+            cleanDB(sqlDB);
             var liteUser = sqlDB.GetUsers().FirstOrDefault();
-            bool result = false; ;
+            bool result = false;
             if(liteUser != null)
             {
                 //DAO this
@@ -42,7 +43,18 @@ namespace TheReel
             }
             else
             {
-                //main page
+                var newMain = new MasterDetailPage();
+                newMain.Master = new NavPage(liteUser.username);
+                newMain.Detail = new TopicsPage();
+                Application.Current.MainPage = newMain;
+            }
+        }
+
+        private void cleanDB(UserDB sqliteDB)
+        {
+            foreach(var user in sqliteDB.GetUsers())
+            {
+                sqliteDB.DeleteUser(user.id);
             }
         }
 

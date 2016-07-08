@@ -12,6 +12,7 @@ namespace TheReel
     public class SignupViewModel : INotifyPropertyChanged
     {
         private User _User;
+        public User User { get { return _User; } }
         private string _ConfirmPass;
         private string _Result;
 
@@ -68,23 +69,24 @@ namespace TheReel
             }
         }
 
-        public async void createUser()
+        public async Task<bool> createUser()
         {
             var client = new HttpClient();
 
             client.BaseAddress = new Uri("http://thereelweb.azurewebsites.net/");
             var serialized = JsonConvert.SerializeObject(_User);
-            StringContent queryString = new StringContent(serialized);
+            HttpContent queryString = new StringContent(serialized, Encoding.UTF8, "application/json");
 
             var response = await client.PostAsync("api/Users", queryString);
             if (response.IsSuccessStatusCode)
             {
-                Result = "Success";
+                return true;
             }
             else
             {
-                Result = "Failed";
+                Result = "Failed, Please Try Again";
             }
+            return false;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
