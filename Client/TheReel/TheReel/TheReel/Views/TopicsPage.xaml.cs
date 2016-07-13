@@ -10,10 +10,13 @@ namespace TheReel
 {
     public partial class TopicsPage : ContentPage
     {
-        public TopicsPage()
+        public TopicsViewModel _Model;
+        public TopicsPage(TopicsViewModel Model)
         {
-            Title = "Topics";
             InitializeComponent();
+            Title = "Topics";
+            _Model = Model;
+            BindingContext = _Model;
         }
     }
 }

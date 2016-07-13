@@ -14,7 +14,7 @@ namespace TheReel
         public App()
         {
             UserDB sqlDB = new UserDB();
-            cleanDB(sqlDB);
+            //cleanDB(sqlDB);
             var liteUser = sqlDB.GetUsers().FirstOrDefault();
             bool result = false;
             if(liteUser != null)
@@ -45,7 +45,7 @@ namespace TheReel
             {
                 var newMain = new MasterDetailPage();
                 newMain.Master = new NavPage(liteUser.username);
-                newMain.Detail = new TopicsPage();
+                newMain.Detail = new TopicsPage(new TopicsViewModel());
                 Application.Current.MainPage = newMain;
             }
         }
