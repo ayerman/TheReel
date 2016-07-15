@@ -125,6 +125,5 @@ C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Server\TheReelWeb\TheReelWeb\bi
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Server\TheReelWeb\TheReelWeb\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Server\TheReelWeb\TheReelWeb\bin\System.Web.WebPages.Razor.xml
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Server\TheReelWeb\TheReelWeb\bin\Antlr3.Runtime.pdb
-C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Server\TheReelWeb\TheReelWeb\obj\Debug\TheReelWeb.csprojResolveAssemblyReference.cache
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Server\TheReelWeb\TheReelWeb\obj\Debug\TheReelWeb.dll
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Server\TheReelWeb\TheReelWeb\obj\Debug\TheReelWeb.pdb
