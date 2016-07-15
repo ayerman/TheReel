@@ -22,7 +22,7 @@ namespace TheReel
                 //DAO this
                 var client = new HttpClient();
 
-                client.BaseAddress = new Uri("http://thereelweb.azurewebsites.net/");
+                client.BaseAddress = new Uri("http://reelweb.azurewebsites.net/");
 
                 var response = client.GetStringAsync("api/Users");
                 response.Wait();
