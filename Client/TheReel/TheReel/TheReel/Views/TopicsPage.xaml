@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TheReel.TopicsPage">
   <StackLayout Orientation="Vertical">
-    <Button Text="One"></Button>
-    <Button Text="Two"></Button>
-    <Button Text="Three"></Button>
+    <Button Text="{Binding TopicOneName}"></Button>
+    <Button Text="{Binding TopicTwoName}"></Button>
+    <Button Text="{Binding TopicThreeName}"></Button>
   </StackLayout>
 </ContentPage>

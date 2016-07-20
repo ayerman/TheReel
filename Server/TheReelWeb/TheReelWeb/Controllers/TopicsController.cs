@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Linq;
@@ -13,44 +12,44 @@ using TheReelWeb.Models;
 
 namespace TheReelWeb.Controllers
 {
-    public class UsersController : ApiController
+    public class TopicsController : ApiController
     {
         private DBContext db = new DBContext();
 
-        // GET: api/Users
-        public IQueryable<Users> GetUsers()
+        // GET: api/Topics
+        public IQueryable<Topic> GetTopics()
         {
-            return db.Users;
+            return db.Topic;
         }
 
-        // GET: api/Users/5
-        [ResponseType(typeof(Users))]
-        public async Task<IHttpActionResult> GetUsers(int id)
+        // GET: api/Topics/5
+        [ResponseType(typeof(Topic))]
+        public async Task<IHttpActionResult> GetTopics(int id)
         {
-            Users users = await db.Users.FindAsync(id);
-            if (users == null)
+            Topic topic = await db.Topic.FindAsync(id);
+            if (topic == null)
             {
                 return NotFound();
             }
 
-            return Ok(users);
+            return Ok(topic);
         }
 
-        // PUT: api/Users/5
+        // PUT: api/Topics/5
         [ResponseType(typeof(void))]
-        public async Task<IHttpActionResult> PutUsers(int id, Users users)
+        public async Task<IHttpActionResult> PutUsers(int id, Topic topic)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            if (id != users.id)
+            if (id != topic.id)
             {
                 return BadRequest();
             }
 
-            db.Entry(users).State = EntityState.Modified;
+            db.Entry(topic).State = EntityState.Modified;
 
             try
             {
@@ -58,7 +57,7 @@ namespace TheReelWeb.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!UsersExists(id))
+                if (!TopicExists(id))
                 {
                     return NotFound();
                 }
@@ -71,35 +70,35 @@ namespace TheReelWeb.Controllers
             return StatusCode(HttpStatusCode.NoContent);
         }
 
-        // POST: api/Users
-        [ResponseType(typeof(Users))]
-        public async Task<IHttpActionResult> PostUsers(Users users)
+        // POST: api/Topics
+        [ResponseType(typeof(Topic))]
+        public async Task<IHttpActionResult> PostTopics(Topic topic)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            db.Users.Add(users);
+            db.Topic.Add(topic);
             await db.SaveChangesAsync();
 
-            return CreatedAtRoute("DefaultApi", new { id = users.id }, users);
+            return CreatedAtRoute("DefaultApi", new { id = topic.id }, topic);
         }
 
-        // DELETE: api/Users/5
-        [ResponseType(typeof(Users))]
-        public async Task<IHttpActionResult> DeleteUsers(int id)
+        // DELETE: api/Topics/5
+        [ResponseType(typeof(Topic))]
+        public async Task<IHttpActionResult> DeleteTopics(int id)
         {
-            Users users = await db.Users.FindAsync(id);
-            if (users == null)
+            Topic topic = await db.Topic.FindAsync(id);
+            if (topic == null)
             {
                 return NotFound();
             }
 
-            db.Users.Remove(users);
+            db.Topic.Remove(topic);
             await db.SaveChangesAsync();
 
-            return Ok(users);
+            return Ok(topic);
         }
 
         protected override void Dispose(bool disposing)
@@ -111,9 +110,9 @@ namespace TheReelWeb.Controllers
             base.Dispose(disposing);
         }
 
-        private bool UsersExists(int id)
+        private bool TopicExists(int id)
         {
-            return db.Users.Count(e => e.id == id) > 0;
+            return db.Topic.Count(e => e.id == id) > 0;
         }
     }
 }

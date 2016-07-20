@@ -18,9 +18,9 @@ namespace TheReel
             BindingContext = _Model;
         }
 
-        async void ConfirmClick(object obj, EventArgs e)
+        private void ConfirmClick(object obj, EventArgs e)
         {
-            var result = await _Model.createUser();
+            var result = _Model.createUser();
             if (result)
             {
                 Application.Current.MainPage = new NavigationPage(new LoginPage(new LoginViewModel(_Model.User)));

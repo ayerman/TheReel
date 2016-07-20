@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.ComponentModel;
 using Newtonsoft.Json;
 using System.Net.Http;
+using TheReel.WebService;
 
 namespace TheReel
 {
@@ -42,28 +43,18 @@ namespace TheReel
             }
         }
 
-        public async Task<bool> IsUserValid()
+        public bool IsUserValid()
         {
-            var client = new HttpClient();
-
-            client.BaseAddress = new Uri("http://thereelweb.azurewebsites.net/");
-
-            var response = await client.GetStringAsync("api/Users");
-
-            foreach(var user in JsonConvert.DeserializeObject<List<User>>(response))
+            UserDAO UserWeb = new UserDAO();
+            if (UserWeb.Login(_User))
             {
-                if(user.username.ToLower() == Username.ToLower() && user.password == Password)
+                UserDB SqlDb = new UserDB();
+                foreach(var user in SqlDb.GetUsers())
                 {
-                    _User.id = user.id;
-                    UserDB SqlDb = new UserDB();
-                    var existingUser = SqlDb.GetUser(_User.id);
-                    if(existingUser != null)
-                    {
-                        SqlDb.DeleteUser(_User.id);
-                    }
-                    SqlDb.AddUser(_User);
-                    return true;
+                    SqlDb.DeleteUser(user.id);
                 }
+                SqlDb.AddUser(_User);
+                return true;
             }
             return false;
         }
