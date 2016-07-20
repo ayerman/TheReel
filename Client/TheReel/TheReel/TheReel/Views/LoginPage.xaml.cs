@@ -20,9 +20,9 @@ namespace TheReel
             BindingContext = _Model;
         }
 
-        async void LoginClick(object obj, EventArgs e)
+        private void LoginClick(object obj, EventArgs e)
         {
-            var result = await _Model.IsUserValid();
+            var result = _Model.IsUserValid();
             if (result)
             {
                 var newMain = new MasterDetailPage();
