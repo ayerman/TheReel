@@ -12,8 +12,6 @@ namespace TheReel.WebService
     {
         public IEnumerable<Topic> getActiveTopics()
         {
-
-            //DAO this
             var client = new HttpClient();
 
             client.BaseAddress = new Uri("http://reelweb.azurewebsites.net/");
@@ -21,7 +19,7 @@ namespace TheReel.WebService
             var response = client.GetStringAsync("api/Topics");
             response.Wait();
             
-            return JsonConvert.DeserializeObject<List<Topic>>(response.Result));
+            return JsonConvert.DeserializeObject<List<Topic>>(response.Result);
         }
     }
 }

@@ -22,13 +22,13 @@ namespace TheReel
                 var newMain = new MasterDetailPage();
                 newMain.Master = new NavPage(liteUser.username);
                 newMain.Detail = new TopicsPage(new TopicsViewModel());
-                Application.Current.MainPage = newMain;
+                MainPage = newMain;
             }
             else
             {
                 var NavPage = new NavigationPage();
-                MainPage = NavPage;
                 NavPage.PushAsync(new LoginPage(new LoginViewModel(new User())));
+                MainPage = NavPage;
             }
         }
 
