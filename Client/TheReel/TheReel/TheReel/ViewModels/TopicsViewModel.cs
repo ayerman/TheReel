@@ -8,6 +8,7 @@ using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Net.Http;
 using Newtonsoft.Json;
+using TheReel.WebService;
 
 namespace TheReel
 {
@@ -55,27 +56,10 @@ namespace TheReel
         public TopicsViewModel()
         {
             Topics = new ObservableCollection<Topic>();
-            
-            //DAO this
-            var client = new HttpClient();
-
-            client.BaseAddress = new Uri("http://reelweb.azurewebsites.net/");
-
-            var response = client.GetStringAsync("api/Topics");
-            response.Wait();
-
-            int count = 0;
-            foreach (var topic in JsonConvert.DeserializeObject<List<Topic>>(response.Result))
+            TopicsDAO topicsWeb = new TopicsDAO();
+            foreach(var topic in topicsWeb.getActiveTopics())
             {
-                if (count < 2)
-                {
-                    Topics.Add(topic);
-                    count++;
-                }
-                else
-                {
-                    break;
-                }
+                Topics.Add(topic);
             }
         }
     }
