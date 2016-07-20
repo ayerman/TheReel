@@ -3,5 +3,4 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TheReel.NavPage">
   <Label Text="Nav" VerticalOptions="Center" HorizontalOptions="Center" />
-  <Label Text="fuck" VerticalOptions="Center" HorizontalOptions="Center" />
 </ContentPage>
