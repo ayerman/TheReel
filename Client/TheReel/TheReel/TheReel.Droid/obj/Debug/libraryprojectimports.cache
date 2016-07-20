@@ -2,25 +2,25 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\SQLitePCL.batteries\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\SQLitePCL.raw\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\SQLitePCLPlugin_esqlite3\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\SQLitePCL.batteries\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\SQLitePCL.raw\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\SQLitePCLPlugin_esqlite3\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\SQLitePCL.batteries\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\SQLitePCL.raw\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\SQLitePCLPlugin_esqlite3\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\SQLitePCL.batteries\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\SQLitePCL.raw\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\SQLitePCLPlugin_esqlite3\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\SQLitePCL.batteries.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\SQLitePCL.raw.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\SQLitePCLPlugin_esqlite3.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\SQLitePCL.batteries.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\SQLitePCL.raw.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\SQLitePCLPlugin_esqlite3.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>
