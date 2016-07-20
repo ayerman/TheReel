@@ -46,7 +46,7 @@ namespace TheReel
         {
             var client = new HttpClient();
 
-            client.BaseAddress = new Uri("http://thereelweb.azurewebsites.net/");
+            client.BaseAddress = new Uri("http://reelweb.azurewebsites.net/");
 
             var response = await client.GetStringAsync("api/Users");
 

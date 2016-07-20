@@ -27,7 +27,7 @@ namespace TheReel
             {
                 var newMain = new MasterDetailPage();
                 newMain.Master = new NavPage(_Model.Username);
-                newMain.Detail = new TopicsPage();
+                newMain.Detail = new TopicsPage(new TopicsViewModel());
                 Application.Current.MainPage = newMain;
             }
         }

@@ -2,5 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TheReel.TopicsPage">
-  <Label Text="Topics" VerticalOptions="Center" HorizontalOptions="Center" />
+  <StackLayout Orientation="Vertical">
+    <Button Text="{Binding TopicOneName}"></Button>
+    <Button Text="{Binding TopicTwoName}"></Button>
+    <Button Text="{Binding TopicThreeName}"></Button>
+  </StackLayout>
 </ContentPage>

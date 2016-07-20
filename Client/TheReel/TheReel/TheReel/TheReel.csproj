@@ -37,6 +37,8 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="Core\ISQLite.cs" />
+    <Compile Include="Models\Topic.cs" />
+    <Compile Include="ViewModels\TopicsViewModel.cs" />
     <Compile Include="Views\LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>

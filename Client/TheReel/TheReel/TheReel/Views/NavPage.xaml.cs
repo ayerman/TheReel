@@ -12,9 +12,9 @@ namespace TheReel
     {
         public NavPage(string username)
         {
+            InitializeComponent();
             Title = "Hello " + username;
             BackgroundColor = Color.White;
-            InitializeComponent();
         }
     }
 }
