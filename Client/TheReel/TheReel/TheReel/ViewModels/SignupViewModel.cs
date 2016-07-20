@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.ComponentModel;
 using Newtonsoft.Json;
 using System.Net.Http;
+using TheReel.WebService;
 
 namespace TheReel
 {
@@ -69,24 +70,18 @@ namespace TheReel
             }
         }
 
-        public async Task<bool> createUser()
+        public bool createUser()
         {
-            var client = new HttpClient();
-
-            client.BaseAddress = new Uri("http://reelweb.azurewebsites.net/");
-            var serialized = JsonConvert.SerializeObject(_User);
-            HttpContent queryString = new StringContent(serialized, Encoding.UTF8, "application/json");
-
-            var response = await client.PostAsync("api/Users", queryString);
-            if (response.IsSuccessStatusCode)
+            UserDAO UserWeb = new UserDAO();
+            if (UserWeb.Register(_User))
             {
                 return true;
             }
             else
-            {
+            { 
                 Result = "Failed, Please Try Again";
+                return false;
             }
-            return false;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
