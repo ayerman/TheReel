@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
-
+using TheReel.WebService;
 using Xamarin.Forms;
 
 namespace TheReel
@@ -14,39 +14,21 @@ namespace TheReel
         public App()
         {
             UserDB sqlDB = new UserDB();
+            UserDAO UserWeb = new UserDAO();
             //cleanDB(sqlDB);
             var liteUser = sqlDB.GetUsers().FirstOrDefault();
-            bool result = false;
-            if(liteUser != null)
-            {
-                //DAO this
-                var client = new HttpClient();
-
-                client.BaseAddress = new Uri("http://reelweb.azurewebsites.net/");
-
-                var response = client.GetStringAsync("api/Users");
-                response.Wait();
-                
-                foreach (var user in JsonConvert.DeserializeObject<List<User>>(response.Result))
-                {
-                    if (user.username.ToLower() == liteUser.username.ToLower() && user.password == liteUser.password)
-                    {
-                        result = true;
-                    }
-                }
-            }
-            if (result == false)
-            {
-                var NavPage = new NavigationPage();
-                MainPage = NavPage;
-                NavPage.PushAsync(new LoginPage(new LoginViewModel(new User())));
-            }
-            else
+            if(liteUser != null && UserWeb.Login(liteUser))
             {
                 var newMain = new MasterDetailPage();
                 newMain.Master = new NavPage(liteUser.username);
                 newMain.Detail = new TopicsPage(new TopicsViewModel());
                 Application.Current.MainPage = newMain;
+            }
+            else
+            {
+                var NavPage = new NavigationPage();
+                MainPage = NavPage;
+                NavPage.PushAsync(new LoginPage(new LoginViewModel(new User())));
             }
         }
 
