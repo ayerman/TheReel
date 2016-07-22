@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:TheReel.Views.Imagebutton;assembly=TheReel"
              x:Class="TheReel.TopicsPage">
   <Grid>
     <Grid.ColumnDefinitions>
@@ -18,6 +19,109 @@
       <RowDefinition Height="50"/>
     </Grid.RowDefinitions>
     <Button Grid.Column="1" Grid.Row="1" Text="{Binding TopicOneName}"></Button>
+
+    <StackLayout>
+      <controls:ImageButton x:Name="TwitterButton"
+                            BackgroundColor="#01abdf"
+                            HeightRequest="75"
+                            ImageHeightRequest="50"
+                            ImageWidthRequest="50"
+                            Orientation="ImageToLeft"
+                            Text="Twitter"
+                            TextColor="#ffffff"
+                            WidthRequest="175">
+        <controls:ImageButton.Source>
+          <OnPlatform x:TypeArguments="ImageSource">
+            <OnPlatform.Android>
+              <FileImageSource File="icon_twitter.png" />
+            </OnPlatform.Android>
+          </OnPlatform>
+        </controls:ImageButton.Source>
+      </controls:ImageButton>
+      <controls:ImageButton x:Name="FacebookButton"
+                            BackgroundColor="#3d509f"
+                            HeightRequest="75"
+                            ImageHeightRequest="50"
+                            ImageWidthRequest="50"
+                            Orientation="ImageToRight"
+                            Text="Facebook"
+                            TextColor="#ffffff"
+                            WidthRequest="175">
+        <controls:ImageButton.Source>
+          <OnPlatform x:TypeArguments="ImageSource">
+            <OnPlatform.Android>
+              <FileImageSource File="icon_facebook.png" />
+            </OnPlatform.Android>
+          </OnPlatform>
+        </controls:ImageButton.Source>
+      </controls:ImageButton>
+      <controls:ImageButton x:Name="GoogleButton"
+                            BackgroundColor="#dc021e"
+                            HeightRequest="125"
+                            ImageHeightRequest="100"
+                            ImageWidthRequest="100"
+                            Orientation="ImageOnTop"
+                            Text="Google"
+                            TextColor="#ffffff"
+                            WidthRequest="175">
+        <controls:ImageButton.Source>
+          <OnPlatform x:TypeArguments="ImageSource">
+            <OnPlatform.Android>
+              <FileImageSource File="icon_google.png" />
+            </OnPlatform.Android>
+          </OnPlatform>
+        </controls:ImageButton.Source>
+      </controls:ImageButton>
+      <controls:ImageButton x:Name="MicrosoftButton"
+                            BackgroundColor="#ffffff"
+                            HeightRequest="125"
+                            ImageHeightRequest="100"
+                            ImageWidthRequest="100"
+                            Orientation="ImageOnBottom"
+                            Text="Microsoft"
+                            TextColor="#000000"
+                            WidthRequest="175">
+        <controls:ImageButton.Source>
+          <OnPlatform x:TypeArguments="ImageSource">
+            <OnPlatform.Android>
+              <FileImageSource File="icon_microsoft.png" />
+            </OnPlatform.Android>
+          </OnPlatform>
+        </controls:ImageButton.Source>
+      </controls:ImageButton>
+
+      <StackLayout Orientation="Horizontal">
+        <Switch IsToggled="{Binding ButtonEnabled}"
+                MinimumHeightRequest="25"
+                WidthRequest="125" />
+        <controls:ImageButton x:Name="EnabledButton"
+                              BackgroundColor="#a2e2ef"
+                              HeightRequest="125"
+                              HorizontalOptions="FillAndExpand"
+                              ImageHeightRequest="100"
+                              ImageWidthRequest="100"
+                              IsEnabled="{Binding ButtonEnabled}"
+                              Orientation="ImageOnBottom"
+                              Text="{Binding EnabledButtonTitle}"
+                              TextColor="#000000">
+          <controls:ImageButton.Source>
+            <OnPlatform x:TypeArguments="ImageSource">
+              <OnPlatform.Android>
+                <FileImageSource File="icon_google.png" />
+              </OnPlatform.Android>
+            </OnPlatform>
+          </controls:ImageButton.Source>
+          <controls:ImageButton.DisabledSource>
+            <OnPlatform x:TypeArguments="ImageSource">
+              <OnPlatform.Android>
+                <FileImageSource File="imgNotAvailable.png" />
+              </OnPlatform.Android>
+            </OnPlatform>
+          </controls:ImageButton.DisabledSource>
+        </controls:ImageButton>
+      </StackLayout>
+    </StackLayout>
+    
     <Button Grid.Column="1" Grid.Row="3" Text="{Binding TopicTwoName}"></Button>
     <Button Grid.Column="1" Grid.Row="5" Text="{Binding TopicThreeName}"></Button>
   </Grid>
