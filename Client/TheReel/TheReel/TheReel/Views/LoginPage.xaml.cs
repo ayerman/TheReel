@@ -39,6 +39,7 @@ namespace TheReel
 
         private void EntryFocus(object obj, FocusEventArgs e)
         {
+            
             if (!e.IsFocused)
             {
                 LoginLayout.VerticalOptions = LayoutOptions.CenterAndExpand;

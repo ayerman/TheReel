@@ -47,8 +47,6 @@ C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.csprojResolveAssemblyReference.cache
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.Views.TopicsPage.xaml.g.cs
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.Views.NavPage.xaml.g.cs
-C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.dll.mdb
-C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\TheReel.dll.mdb
 C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\TheReel.dll
 C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\TheReel.pdb
 C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\Newtonsoft.Json.dll
@@ -71,3 +69,26 @@ C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\obj\D
 C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.pdb
 C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.dll.mdb
 C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\TheReel.dll.mdb
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\TheReel.dll
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\TheReel.pdb
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\SQLite-net.dll
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\SQLitePCL.batteries.dll
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\SQLitePCL.raw.dll
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\SQLite-net.xml
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.Views.LoginPage.xaml.g.cs
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.Views.Signup.xaml.g.cs
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.Views.TopicsPage.xaml.g.cs
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.Views.NavPage.xaml.g.cs
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.dll
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.pdb
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.dll.mdb
+C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\TheReel.dll.mdb
+C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.dll.mdb
+C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\TheReel.dll.mdb
