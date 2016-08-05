@@ -22,7 +22,7 @@ namespace TheReel
 
         private void LoginClick(object obj, EventArgs e)
         {
-            var result = _Model.IsUserValid();
+            var result = true;//_Model.IsUserValid();
             if (result)
             {
                 var newMain = new MasterDetailPage();
@@ -39,6 +39,7 @@ namespace TheReel
 
         private void EntryFocus(object obj, FocusEventArgs e)
         {
+            
             if (!e.IsFocused)
             {
                 LoginLayout.VerticalOptions = LayoutOptions.CenterAndExpand;

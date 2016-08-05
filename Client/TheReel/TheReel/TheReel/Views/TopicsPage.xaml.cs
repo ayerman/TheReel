@@ -18,5 +18,10 @@ namespace TheReel
             _Model = Model;
             BindingContext = _Model;
         }
+
+        private void TextClick(object sender, EventArgs e)
+        {
+
+        }
     }
 }

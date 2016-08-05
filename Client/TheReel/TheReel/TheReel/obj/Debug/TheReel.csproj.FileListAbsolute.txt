@@ -47,8 +47,6 @@ C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.csprojResolveAssemblyReference.cache
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.Views.TopicsPage.xaml.g.cs
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.Views.NavPage.xaml.g.cs
-C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.dll.mdb
-C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\TheReel.dll.mdb
 C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\TheReel.dll
 C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\TheReel.pdb
 C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\Newtonsoft.Json.dll
@@ -92,5 +90,5 @@ C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\
 C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.pdb
 C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.dll.mdb
 C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\TheReel.dll.mdb
-C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.dll.mdb
-C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\TheReel.dll.mdb
+C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\obj\Debug\TheReel.dll.mdb
+C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel\bin\Debug\TheReel.dll.mdb

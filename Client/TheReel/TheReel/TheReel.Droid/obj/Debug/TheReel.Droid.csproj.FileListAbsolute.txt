@@ -123,7 +123,6 @@ C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\android\assets\TheReel.dll.mdb
 C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\android\assets\TheReel.Droid.dll.mdb
-C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\TheReel.Droid.dll.mdb
 C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\bin\Debug\TheReel.Droid.dll
 C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\bin\Debug\TheReel.Droid.pdb
 C:\Users\Armen_000\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\bin\Debug\TheReel.Droid.apk
@@ -252,4 +251,5 @@ C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.
 C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\android\assets\TheReel.dll.mdb
 C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\android\assets\TheReel.Droid.dll.mdb
 C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\TheReel.Droid.dll.mdb
-C:\Users\Billh\OneDrive\Documents\GitHub\TheReel\Client\TheReel\TheReel\TheReel.Droid\bin\Debug\TheReel.Droid.dll.mdb
+C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\obj\Debug\TheReel.Droid.dll.mdb
+C:\Users\Aaron Yerman\Downloads\Projects\TheReel\Client\TheReel\TheReel\TheReel.Droid\bin\Debug\TheReel.Droid.dll.mdb
