@@ -57,10 +57,10 @@ namespace TheReel
         {
             Topics = new ObservableCollection<Topic>();
             TopicsDAO topicsWeb = new TopicsDAO();
-            foreach(var topic in topicsWeb.getActiveTopics())
+            /*foreach(var topic in topicsWeb.getActiveTopics())
             {
                 Topics.Add(topic);
-            }
+            }*/
         }
     }
 }

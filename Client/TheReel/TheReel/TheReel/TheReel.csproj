@@ -36,14 +36,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="Core\Enums\ImageOrientation.cs" />
-    <Compile Include="Core\Enums\Orientation.cs" />
-    <Compile Include="Core\Enums\TextCellDetailLocation.cs" />
-    <Compile Include="Core\ImageButtonSourceConverter.cs" />
     <Compile Include="Core\ISQLite.cs" />
     <Compile Include="Models\Topic.cs" />
     <Compile Include="ViewModels\TopicsViewModel.cs" />
-    <Compile Include="Views\Imagebutton\ImageButton.cs" />
     <Compile Include="Views\LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
@@ -65,9 +60,6 @@
     <Compile Include="WebService\UserDAO.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Mono.Android">
-      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v6.0\Mono.Android.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Newtonsoft.Json.8.0.3\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>

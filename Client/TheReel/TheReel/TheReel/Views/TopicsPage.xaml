@@ -18,21 +18,9 @@
       <RowDefinition Height="Auto"/>
       <RowDefinition Height="50"/>
     </Grid.RowDefinitions>
-    <controls:ImageButton Grid.Column="1" Grid.Row="1"
-                          x:Name="TwitterButton"
-                          BackgroundColor="#01abdf"
-                          Orientation="ImageToLeft"
-                          Text="{Binding TopicOneName}"
-                          TextColor="#ffffff">
-      <controls:ImageButton.Source>
-        <OnPlatform x:TypeArguments="ImageSource">
-          <OnPlatform.Android>
-            <FileImageSource File="icon.png" />
-          </OnPlatform.Android>
-        </OnPlatform>
-      </controls:ImageButton.Source>
-    </controls:ImageButton>
-    <Button Grid.Column="1" Grid.Row="3" BackgroundColor="#01abdf" Image="icon.png"></Button>
+    <Button Grid.Column="1" Grid.Row="1" Text="{Binding TopicOneName}"></Button>
+    <Image Grid.Column="1" Grid.Row="3" Source="icon.png" WidthRequest="300" HeightRequest="200"/>
+    <Button Grid.Column="1" Grid.Row="3" BackgroundColor="Transparent" Text="{Binding TopicTwoName}" TextColor="Black" Clicked="TextClick"></Button>
     <Button Grid.Column="1" Grid.Row="5" Text="{Binding TopicThreeName}"></Button>
   </Grid>
 </ContentPage>

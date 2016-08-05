@@ -17,7 +17,7 @@ namespace TheReel
             UserDAO UserWeb = new UserDAO();
             //cleanDB(sqlDB);
             var liteUser = sqlDB.GetUsers().FirstOrDefault();
-            if(liteUser != null && UserWeb.Login(liteUser))
+            if(liteUser != null /*&& UserWeb.Login(liteUser)*/)
             {
                 var newMain = new MasterDetailPage();
                 newMain.Master = new NavPage(liteUser.username);
